@@ -26,8 +26,6 @@ public class Teste {
 		System.out.println(sdf.format(data.getTime()));
 		System.out.println(sdf.format(data2.getTime()));
 		
-		new Date("");
-		
 	}
 	
 }
