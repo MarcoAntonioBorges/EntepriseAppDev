@@ -29,7 +29,7 @@ class Teste {
 	
 	@Test
 	void cadastrarTudoTest() {
-		Paciente paciente = new Paciente("Thiago");
+		Paciente paciente = new Paciente("Marco A.");
 		Medico medico = new Medico(123, "Drauzio", 1000, 164);
 		Consulta consulta = new Consulta(medico, paciente, 
 				Calendar.getInstance(), "Rotina");
